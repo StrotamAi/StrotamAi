@@ -1,0 +1,67 @@
+
+/* styles.css - Clean, Professional, and Responsive */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1a1a1a, #333);
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #00baff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+    cursor: pointer;
+    animation: bounceIn 1.5s ease-out forwards;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffea00;
+}
+
+.watermark {
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+@keyframes bounceIn {
+    0% { transform: scale(0); opacity: 0; }
+    60% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); }
+}
